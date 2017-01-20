@@ -7,6 +7,11 @@
     <groupId>ru.aakifev</groupId>
     <artifactId>invent</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
+
+    <build>
+        <finalName>invent</finalName>
+    </build>
 
     <properties>
         <spring-version>4.3.4.RELEASE</spring-version>
